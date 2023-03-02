@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=SettingsScreen
+comment0.text=\n\ Displays\ the\ game\ settings\ and\ allows\ the\ user\ to\ adjust\ them.\n\n\ @author\ Ed\ Parrish\n\ @version\ 1.0\ \ 1/12/2011\n
+comment1.params=
+comment1.target=SettingsScreen()
+comment1.text=\n\ SettingsScreen\ constructor.\n
+comment2.params=
+comment2.target=int\ getLevel()
+comment2.text=\n\ Returns\ the\ question\ level\ selected\ by\ the\ user.\n\n\ @return\ The\ file\ name\ entered\ by\ the\ user.\n
+comment3.params=
+comment3.target=void\ clear()
+comment3.text=\n\ Clears\ the\ display\ area\ and\ removes\ this\ object\ from\ the\ world.\n
+comment4.params=
+comment4.target=void\ act()
+comment4.text=\n\ Respond\ to\ a\ actions\ like\ a\ button\ being\ pressed.\n
+comment5.params=w
+comment5.target=void\ addedToWorld(greenfoot.World)
+comment5.text=\n\ Save\ the\ world\ and\ draw\ it.\n\n\ @param\ w\ the\ world.\n
+comment6.params=
+comment6.target=void\ draw()
+comment6.text=\n\ Draw\ the\ screen.\n
+numComments=7

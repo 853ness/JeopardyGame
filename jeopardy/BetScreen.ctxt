@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=BetScreen
+comment0.text=\n\ Handles\ betting\ for\ the\ final\ round.\n\n\ @author\ Ed\ Parrish\n\ @version\ 1.0\ \ 1/8/2011\n
+comment1.params=cat
+comment1.target=BetScreen(java.lang.String)
+comment1.text=\n\ BetScreen\ constructor.\n\n\ @param\ cat\ The\ final\ round\ category.\n
+comment2.params=
+comment2.target=void\ clear()
+comment2.text=\n\ Clears\ the\ display\ area\ and\ removes\ this\ object\ from\ the\ world.\n
+comment3.params=
+comment3.target=void\ act()
+comment3.text=\n\ Respond\ to\ actions\ like\ a\ button\ being\ pressed.\n\n\ @param\ c\ The\ component\ object\ that\ caused\ the\ action.\n
+comment4.params=msg
+comment4.target=void\ printErrorMessage(java.lang.String)
+comment4.text=\n\ Prints\ an\ error\ message\ to\ the\ screen.\n\n\ @param\ msg\ The\ error\ message\ to\ print.\n
+comment5.params=w
+comment5.target=void\ addedToWorld(greenfoot.World)
+comment5.text=\n\ Save\ the\ world\ and\ draw\ it.\n\n\ @param\ w\ the\ world.\n
+comment6.params=
+comment6.target=void\ draw()
+comment6.text=\n\ Draw\ the\ screen.\n
+comment7.params=line\ font\ x\ y
+comment7.target=int\ printCentered(java.lang.String,\ greenfoot.Font,\ int,\ int)
+comment7.text=\n\ Method\ printCentered\ displays\ a\ single\ centered\ line.\n\n\ @param\ line\ The\ line\ of\ text\ to\ display.\n\ @param\ font\ The\ font\ to\ use.\n\ @param\ x\ The\ x-coordinate\ offset.\n\ @param\ y\ The\ y-coordinate\ offset.\n\ @return\ The\ y\ location\ for\ use\ in\ the\ next\ print\ operation.\n
+numComments=8
