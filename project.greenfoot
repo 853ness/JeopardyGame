@@ -1,4 +1,5 @@
 #Greenfoot project file
+class.Igloo.image=igloo.png
 class.MyWorld.image=space.jpg
 class.Rocket.image=rocket.png
 class.teddy.image=teddybear.png
@@ -27,7 +28,7 @@ readme.x=10
 readme.y=10
 simulation.speed=50
 target1.height=70
-target1.name=teddy
+target1.name=Igloo
 target1.showInterface=false
 target1.type=ClassTarget
 target1.width=120
