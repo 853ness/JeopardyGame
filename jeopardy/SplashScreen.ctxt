@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=SplashScreen
+comment0.text=\n\ Displays\ flashing\ screens.\n\n\ @author\ Ed\ Parrish\n\ @version\ 1.0\ \ 1/12/2011\n
+comment1.params=
+comment1.target=SplashScreen()
+comment1.text=\n\ SplashScreen\ constructor.\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\n\ Trigger\ the\ flashes.\n
+comment3.params=w
+comment3.target=void\ addedToWorld(greenfoot.World)
+comment3.text=\n\ Save\ the\ world\ and\ draw\ it.\n\n\ @param\ w\ the\ world.\n
+comment4.params=
+comment4.target=void\ clear()
+comment4.text=\n\ Clears\ the\ display\ area\ and\ removes\ this\ object\ from\ the\ world.\n
+comment5.params=
+comment5.target=void\ draw()
+comment5.text=\n\ Draw\ the\ screen\ objects.\n
+numComments=6

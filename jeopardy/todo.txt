@@ -1,0 +1,73 @@
+Future questions to finish up
+------------------------------
+
+Possible Jeapordy style questions for Midterm 2 from students:
+5. while (x < 100)
+
+if (x < 100){
+
+ed gives me an A+
+
+X++
+
+}if (X == 0){
+
+free cookies
+
+}
+
+why will this loop never get to ed gives me an A+
+
+100. The RGB color value for black is, ____?
+
+Answer; What is 0, 0, 0.
+
+200. What is the highest value a color can be in the RGB "scale"?
+
+Answer; What is 255.
+
+300. Setting all RGB values to the same color creates this.
+
+Answer; What is grey.
+
+400. How many values must be input for a color to be returned?
+
+Answer; What is 3.
+
+500. 0, 0, 255 creates what color?
+
+What is Blue.
+
+100
+
+Q1. This type of variable is used to store a condition that is true or false.
+
+A1. What is a Boolean variable?
+
+200
+
+Q2. This type of symbol is an operator that treats operands like boolean values.
+
+A2. What is a Boolean operator?
+
+300
+
+Q3. This logical operator is used to check if the described condition is not true.
+
+A3. What is !?
+
+400
+
+Q4. This logical operator is used to check if either of the conditions are true.
+
+A4. What is ||?
+
+500
+
+Q5. This logical operator is used to check if both of the conditions are true.
+
+A5. What is &&?
+
+This data type has a larger range, and more importantly, twice the precision of float.
+
+A number with a decimal point is know as this.

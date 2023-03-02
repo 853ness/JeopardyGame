@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=CountDownTimer
+comment0.text=\n\ Displays\ a\ count-down\ timer\ during\ questions.\n\n\ @author\ Ed\ Parrish\n\ @version\ 1.0\ 12/01/10\n
+comment1.params=seconds
+comment1.target=CountDownTimer(int)
+comment1.text=\n\ Constructs\ a\ CountDownTimer.\n\n\ @param\ seconds\ The\ duration\ in\ seconds.\n
+comment2.params=seconds
+comment2.target=void\ setDuration(int)
+comment2.text=\n\ Sets\ the\ duration\ of\ the\ timer.\n\n\ @param\ seconds\ The\ duration\ in\ seconds.\n
+comment3.params=
+comment3.target=void\ start()
+comment3.text=\n\ Starts\ a\ new\ timer\ task.\n
+comment4.params=
+comment4.target=boolean\ isRunning()
+comment4.text=\n\ Returns\ if\ the\ timer\ is\ running\ or\ not.\n\n\ @return\ <code>true</code>\ if\ the\ timer\ is\ running;\ otherwise\n\ \ \ \ \ \ \ \ \ <code>false</code>.\n
+comment5.params=
+comment5.target=void\ stop()
+comment5.text=\n\ Stops\ the\ time.\n
+numComments=6

@@ -2,6 +2,7 @@
 class.Igloo.image=igloo.png
 class.MyWorld.image=space.jpg
 class.Rocket.image=rocket.png
+class.teddy.image=teddybear.png
 dependency1.from=MyWorld
 dependency1.to=Rocket
 dependency1.type=UsesDependency
