@@ -1,0 +1,255 @@
+# Single Round
+# Questions linked to categories in groups of 5
+
+:CAT1:GREENFOOT: THE CLASS
+
+:QUEST2:200:When you want to work with an image, use this class.
+:ANSWER2:T:GreenfootImage
+:ANSWER2:F:Actor
+:ANSWER2:F:Greenfoot
+:ANSWER2:F:World
+:ANSWERORDER2:randomized
+:EXPLANATION2:When you look at the Greenfoot documentation, you see that GreenfootImage is an image to be shown on screen.
+
+:QUEST1:400:All of this is the stage on which your objects act.
+:ANSWER1:T:World
+:ANSWER1:F:Actor
+:ANSWER1:F:Greenfoot
+:ANSWER1:F:Stage
+:ANSWERORDER1:randomized
+:EXPLANATION1:When you look at the Greenfoot documentation, you see that World is the world that Actors live in.
+
+:QUEST3:600:You can play your music with this class.
+:ANSWER3:T:Greenfoot
+:ANSWER3:F:Actor
+:ANSWER3:F:SoundPlayer
+:ANSWER3:F:World
+:ANSWERORDER3:randomized
+:EXPLANATION3:When you look at the Greenfoot documentation, you see that Greenfoot is a utility class. One of its methods is playSound(), which plays a sound from a file.
+
+:QUEST4:800:Every program you write includes subclasses of these two classes.
+:ANSWER4:T:Actor and World
+:ANSWER4:F:Actor and Greenfoot
+:ANSWER4:F:GreenfootImage and GreenfootSound
+:ANSWER4:F:World and Greenfoot
+:ANSWERORDER4:randomized
+:EXPLANATION4:Every scenario in Greenfoot subclasses World and Actor.
+
+:QUEST5:1000:This class lives within one class and usually contains another class.
+:ANSWER5:T:Actor
+:ANSWER5:F:Greenfoot
+:ANSWER5:F:String
+:ANSWER5:F:World
+:ANSWERORDER5:randomized
+:EXPLANATION5:An Actor lives within a World subclass and often contains other classes such as GreenfootImage or String.
+
+:CAT2:RAW DATA
+
+:QUEST6:200:When you want to store whole numbers in a computer's main memory, use this data type.
+:ANSWER6:T:int
+:ANSWER6:F:String
+:ANSWER6:F:double
+:ANSWER6:F:char
+:ANSWERORDER6:randomized
+:EXPLANATION6:The data type of a variable defines the kind of data to store in a computer's main memory. The "int" data type stores integers, which are numbers without a decimal point.
+
+:QUEST7:400:When you want to store sequences of characters, like "Hello World", use this data type.
+:ANSWER7:T:String
+:ANSWER7:F:string
+:ANSWER7:F:str
+:ANSWER7:F:text
+:ANSWERORDER7:randomized
+:EXPLANATION7:Sequences of characters are known as strings. The string data type in Java is "String".
+
+:QUEST8:600:Of 3, 4 or 5, these are all this data type.
+:ANSWER8:T:int
+:ANSWER8:F:String
+:ANSWER8:F:double
+:ANSWER8:F:char
+:ANSWERORDER8:randomized
+:EXPLANATION8:The numbers 3, 4 and 5 are all integer numbers. An integer is zero or any positive or negative number without a decimal point. The data type for integers is "int".
+
+:QUEST9:800:The literal "9" (with quote marks) is of this data type.
+:ANSWER9:T:String
+:ANSWER9:F:int
+:ANSWER9:F:double
+:ANSWER9:F:char
+:ANSWERORDER9:randomized
+:EXPLANATION9:Sequences of characters inside double quotes are strings. Even though the characters look like numbers the quote marks around the numbers make them a string. Even though the string contains numbers, the double quote marks make this a string. In Java, the data type for a string is "String".
+
+:QUEST10:1000:You cannot store Pi, which is approximately 3.14159, with this numerical data type.
+:ANSWER10:T:int
+:ANSWER10:F:String
+:ANSWER10:F:double
+:ANSWER10:F:float
+:ANSWERORDER10:randomized
+:EXPLANATION10:Pi is approximately 3.14159, which is a number with a decimal point. The "int" data type cannot store numbers with decimal points. Strings can store the sequence of numbers making up Pi, even though your program cannot perform arithmatic on the number. Both double and float can store Pi as a number though double has more accuracy that float. Thus the best question is, "What is int"?
+
+:CAT3:LOCATION, LOCATION
+
+:QUEST11:200:These 2 coordinates are used to locate a point in a 2-dimensional Cartesian, or coordinate, system.
+:ANSWER11:T:x & y
+:ANSWER11:F:up & down
+:ANSWER11:F:latitude & longitude
+:ANSWER11:F:radius & theta (\u0398)
+:ANSWERORDER11:randomized
+:EXPLANATION11:A Cartesian coordinate system specifies each point in a plane using the numerical coordinates x & y.
+
+:QUEST12:400:The  origin (0, 0) of the coordinate system is located at this area of a Greenfoot window.
+:ANSWER12:T:the upper left-hand corner
+:ANSWER12:F:in the center
+:ANSWER12:F:the upper right-hand corner
+:ANSWER12:F:the lower left-hand corner
+:ANSWERORDER12:randomized
+:EXPLANATION12:The upper left-hand corner is the origin (0, 0) of the Greenfoot coordinate system.
+
+:QUEST13:600:To move to a specific (x, y) location, use this method of the Actor class.
+:ANSWER13:T:setLocation()
+:ANSWER13:F:location()
+:ANSWER13:F:setXY()
+:ANSWER13:F:setX_Y()
+:ANSWERORDER13:randomized
+:EXPLANATION13:The setLocation() method of the Actor class assigns a new location for an Actor object. The location is specified as a cell index in the world.
+
+:QUEST14:800:To find the current (x, y) coordinate location of an Actor, use these two methods.
+:ANSWER14:T:getX() and getY()
+:ANSWER14:F:x() and y()
+:ANSWER14:F:getXCoordinate() and getYCoordinate()
+:ANSWER14:F:setX() and setY()
+:ANSWERORDER14:randomized
+:EXPLANATION14:Method getX() returns the x-coordinate of the object's current location and method getY() returns the y-coordinate of the object's current location.
+
+:QUEST15:1000:To move an Actor one pixel to the right use this statement.
+:ANSWER15:T:setLocation(getX() + 1, getY());
+:ANSWER15:F:setLocation(getX() + 10, getY() - 1);
+:ANSWER15:F:setLocation(getX() + 1, getY() - 1);
+:ANSWER15:F:setLocation(getX(), getY() + 1);
+:ANSWERORDER15:randomized
+:EXPLANATION15:These statements should be worked from the inside out. Method getX() returns the x-coordinate of the object's current location. By adding 1, you move the location one pixel to the right. Method getY() returns the y-coordinate of the object's current location. With the (x, y) locations computed, calling the setLocation() method will move an Actor one pixel to the right.
+
+:CAT4:AN ACTOR'S TURN
+
+:QUEST16:200:It's the sum total of the degrees in a circle.
+:ANSWER16:T:360
+:ANSWER16:F:180
+:ANSWER16:F:2\u00B7\u03C0\u00B7r
+:ANSWER16:F:\u03C0\u00B7r\u00B2
+:ANSWERORDER16:randomized
+:EXPLANATION16:There are 360 degrees in a circle.
+
+:QUEST17:400:For an Actor, zero degrees is in this direction of the compass.
+:ANSWER17:F:to the north
+:ANSWER17:T:to the east
+:ANSWER17:F:to the south
+:ANSWER17:F:to the west
+#:ANSWERORDER17:randomized
+:EXPLANATION17:Zero degrees is to the east and the angle of the circle increases clockwise.
+
+:QUEST18:600:To find the current orientation (or heading) of an actor, use this method of the Actor class.
+:ANSWER18:T:getRotation()
+:ANSWER18:F:getOrientation()
+:ANSWER18:F:getHeading()
+:ANSWER18:F:getDirection()
+:ANSWERORDER18:randomized
+:EXPLANATION18:The getRotation() method of the Actor class returns the current rotation of the object. Rotation is a degree value in the range of (0..359). Zero degrees is to the east and the angle increases clockwise.
+
+:QUEST19:800:To turn an actor facing straight up (or north), use this command.
+:ANSWER19:T:setRotation(270)
+:ANSWER19:F:setRotation(0)
+:ANSWER19:F:setRotation("north")
+:ANSWER19:F:setRotation("up")
+:ANSWERORDER19:randomized
+:EXPLANATION19:Zero degrees is to the east and the angle of the circle increases clockwise. Straight up, or north, is at 270 degrees. Use the setRotation() method to set the orientation (or heading) of an Actor.
+
+:QUEST20:1000:To turn an actor 10 degress clockwise from their current heading, use this command.
+:ANSWER20:T:setRotation(getRotation() + 10)
+:ANSWER20:F:setRotation(getRotation() - 10)
+:ANSWER20:F:setRotation(+10)
+:ANSWER20:F:setRotation(-10)
+:ANSWERORDER20:randomized
+:EXPLANATION20:Zero degrees is to the east and the angle of the circle increases clockwise. Straight up, or north, is at 270 degrees. To turn clockwise add a positive number to the current rotation. To get the current rotation use getRotation().
+
+:CAT5:AT RANDOM
+
+:QUEST21:200:It is a numerical sequence where the next number cannot be predicted.
+:ANSWER21:T:a random number
+:ANSWER21:F:a sequential number
+:ANSWER21:F:an ordered number
+:ANSWER21:F:a psudeo number
+:ANSWERORDER21:randomized
+:EXPLANATION21:Random numbers are a series of numbers that lack any pattern and thus appear random. Most times, a random number generator will produce psuedorandom sequences, where numbers appear to be random but are not. Psuedorandom numbers are often sufficient for computer programs, like video games, that need random numbers.
+
+:QUEST22:400:This method of solving problems with a random number generator is named after the casino city of Monaco.
+:ANSWER22:T:Monte Carlo
+:ANSWER22:F:Las Vegas
+:ANSWER22:F:Macau
+:ANSWER22:F:Venise
+:ANSWERORDER22:randomized
+:EXPLANATION22:Monte Carlo is a city widely known for its casino. Monte Carlo methods rely on repeated computation of random or pseudorandom numbers.
+
+:QUEST23:600:This expression will return a random number between 0 and 10, including the numbers 0 and 10.
+:ANSWER23:F:Greenfoot.getRandomNumber(9)
+:ANSWER23:F:Greenfoot.getRandomNumber(10)
+:ANSWER23:T:Greenfoot.getRandomNumber(11)
+:ANSWER23:F:Greenfoot.getRandomNumber("10")
+#:ANSWERORDER23:randomized
+:EXPLANATION23:The Greenfoot method getRandomNumber() returns a random number between 0 (inclusive) and an upper limit (exclusive). Since the upper limit is excluded you must add one to the parameter to include the upper limit.
+
+:QUEST24:800:This expression will produce a random number between -45 and +45.
+:ANSWER24:T:Greenfoot.getRandomNumber(91) - 45
+:ANSWER24:F:Greenfoot.getRandomNumber(45, -45)
+:ANSWER24:F:Greenfoot.getRandomNumber(-90) + 45
+:ANSWER24:F:Greenfoot.getRandomNumber(-45, 45)
+:ANSWERORDER24:randomized
+:EXPLANATION24:The Greenfoot method getRandomNumber() returns a random number between 0 (inclusive) and an upper limit (exclusive). Thus the method Greenfoot.getRandomNumber(91) returns a random number between 0 and 90. By subtracting 45, the number shifts to between -45 and +45.
+
+:QUEST25:1000:Use this test condition in an if-statement to randomly decide whether to turn 10% of the time.
+:ANSWER25:T:Greenfoot.getRandomNumber(100) < 10
+:ANSWER25:F:Greenfoot.getRandomNumber(10) < 100
+:ANSWER25:F:turn(Greenfoot.getRandomNumber(-90))
+:ANSWER25:F:turn("random") * 10%
+:ANSWERORDER25:randomized
+:EXPLANATION25:The expression "Greenfoot.getRandomNumber(100)" returns a random number between 0 and 99. By testing if the number is < 10, there is a 10% chance of turning when using code like:\n\nif (Greenfoot.getRandomNumber(100) < 10) {\n    // turn statement...\n}
+
+:CAT6:RELATIONAL OPERATORS
+
+:QUEST26:200:This test condition says that, "x is positive".
+:ANSWER26:T:x > 0
+:ANSWER26:F:0 > x
+:ANSWER26:F:x < 0
+:ANSWER26:F:x >= 0
+:ANSWERORDER26:randomized
+:EXPLANATION26:A positive number is a number greater than zero. The relational operator > means "greater than". So the expression (x > 0) means, "x is positive".
+
+:QUEST27:400:This test condition says that, "x is negative".
+:ANSWER27:T:x < 0
+:ANSWER27:F:x > 0
+:ANSWER27:F:0 > x
+:ANSWER27:F:x >= 0
+:ANSWERORDER27:randomized
+:EXPLANATION27:A negative number is a number less than zero. The relational operator < means "less than". So the expression (x < 0) means, "x is negative".
+
+:QUEST28:600:This test condition says that, "x is zero".
+:ANSWER28:T:x == 0
+:ANSWER28:F:x = 0
+:ANSWER28:F:0 = x
+:ANSWER28:F:x is 0
+:ANSWERORDER28:randomized
+:EXPLANATION28:The equality operator is "==" (two equal signs). So the expression (x == 0) means, "x is zero".
+
+:QUEST29:800:This test condition says that, "x is not equal to y".
+:ANSWER29:T:x != y
+:ANSWER29:F:x <> y
+:ANSWER29:F:x =! y
+:ANSWER29:F:x \u2260 y
+:ANSWERORDER29:randomized
+:EXPLANATION29:The algebra symbol \u2260 is not easy to make on a standard keyboard. Thus two symbols are used for inequality: "!=". Code the symbols in the order people normally say them.
+
+:QUEST30:1000:This test condition says that, "x is greater than y + 1".
+:ANSWER30:T:x > y + 1
+:ANSWER30:F:x + y = 1
+:ANSWER30:F:x < y + 1
+:ANSWER30:F:x + 1 > y
+:ANSWERORDER30:randomized
+:EXPLANATION30:Each operand (side of the operator) can be an arithmetic expression. The arithmetic is preformed before the comparison is made.
+

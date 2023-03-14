@@ -1,0 +1,49 @@
+# Test questions with various problems
+
+:CAT1:ONE GOOD QUESTION
+
+:QUEST1:100:This is what happens when working with the code:\n\n  String new = "text";
+:ANSWER1:T:not compile
+:ANSWER1:F:assign the string to a variable named new
+:ANSWER1:F:issue a warning but still compile
+:ANSWER1:F:assign "text", with the quote marks, to variable new
+:ANSWERORDER1:randomized
+:EXPLANATION1:This is a classic trick question - "new" is a reserved word in Java (used to construct objects). Thus "new" cannot be used for a variable name. Other reserved words that cannot be used as a variable name include: class, if, and public.
+:QUEST1:100:This is what happens when working with the code:\n\n  String new = "text";
+
+:CAT2:NO QUESTIONS
+
+:CAT3:PROBLEM QUESTIONS
+
+:QUEST11:101:When you want to work with an image, use this class.
+:EXPLANATION1:When you look at the Greenfoot documentation, you see that GreenfootImage is an image to be shown on screen.
+:ANSWER99:T:answer number without a question
+:ANSWERORDER99:randomized
+:EXPLANATION99:Explanation with no question.
+
+
+:QUEST12:202:All of this is the stage on which your objects act.
+:ANSWERORDER1:randomized
+:EXPLANATION12:When you look at the Greenfoot documentation, you see that World is the world that Actors live in.
+
+:QUEST32:800:This question number is too high!
+:ANSWER32:T:Ah, too bad!
+:ANSWER32:F:Doh!
+:ANSWER32:F:Oops!
+:ANSWER32:F:Huh?
+:ANSWERORDER32:randomized
+:EXPLANATION32:Every scenario in Greenfoot subclasses World and Actor.
+
+:CAT7:FINAL ROUND
+
+:QUEST31:600:You can play your music with this class.
+:ANSWER31:T:Greenfoot
+:ANSWER31:F:Actor
+:ANSWER31:F:SoundPlayer
+:ANSWER31:F:World
+:ANSWERORDER31:randomized
+:EXPLANATION31:When you look at the Greenfoot documentation, you see that Greenfoot is a utility class. One of its methods is playSound(), which plays a sound from a file.
+
+:CAT8:BOGUS CATEGORY
+
+Some bogus text that does not match anything and that should be ignored.
