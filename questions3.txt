@@ -1,0 +1,11 @@
+# Final Round
+
+:CAT1:GREENFOOT: THE CLASS
+
+:QUEST1:200:This is what happens when working with the code:\n\n  String new = "text";
+:ANSWER1:T:not compile
+:ANSWER1:F:assign the string to a variable named new
+:ANSWER1:F:issue a warning but still compile
+:ANSWER1:F:assign "text", with the quote marks, to variable new
+:ANSWERORDER1:randomized
+:EXPLANATION1:This is a classic trick question - "new" is a reserved word in Java (used to construct objects). Thus "new" cannot be used for a variable name. Other reserved words that cannot be used as a variable name include: class, if, and public.

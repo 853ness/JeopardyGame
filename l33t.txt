@@ -1,0 +1,265 @@
+# Single Round
+# Category format = :CATX:Category name, where X is the catgory number.
+# Question format = :QUESTX:$:Question test, where X is the question number
+#     and $ is the value displayed for the question.
+# Questions are linked to categories in groups of 5. For example, questions 1
+#     to 5 are in category 1, questions 6 to 10 in category 2, and so on.
+# Answer format = :ANSWERX:T/F:Answer text, where X is the question number and
+#     T/F is either T (for true) or F (for false). Answers are optional.
+# Answer order format = :ANSWERORDER1:randomized to shuffle the answers. Skip
+#     this statement if you do not wnat to randomize answers.
+# Explanation format = :EXPLANATIONX:Explanation text, where X is the question
+#     number. Note that you can force new lines using \n.
+
+:CAT1:TRUE OR FALSE
+
+:QUEST1:100:The boolean data type is named in honor of this man.
+:ANSWER1:T:George Boole
+:ANSWER1:F:George Boolean
+:ANSWER1:F:Ian Boolean
+:ANSWER1:F:Boole Ean
+:ANSWERORDER1:randomized
+:EXPLANATION1:George Boole's work on symbolic logic was applied to electromechanical and electronic circuits in the nineteenth and twentieth centuries.
+
+:QUEST2:200:In the Java Programming language, this variable type only has a value of either true or false.
+:ANSWER2:T:boolean
+:ANSWER2:F:int
+:ANSWER2:F:double
+:ANSWER2:F:logical
+:ANSWERORDER2:randomized
+:EXPLANATION2:The boolean data type has only two possible values: true and false.
+
+:QUEST3:300:Relational operations always evaluate to this data type.
+:ANSWER3:T:boolean
+:ANSWER3:F:int
+:ANSWER3:F:double
+:ANSWER3:F:logical
+:ANSWERORDER3:randomized
+:EXPLANATION3:The boolean data type has only two possible values: true and false.
+
+:QUEST4:400:A boolean variable can always substitute for a this part of a loop statement.
+:ANSWER4:T:test condition
+:ANSWER4:F:initialization
+:ANSWER4:F:update
+:ANSWER4:F:body
+:ANSWERORDER4:randomized
+:EXPLANATION4:A test condition must always evaluates to true or false, and thus a boolean data type can provide the needed value.
+
+:QUEST5:500:The following test condition, the following can be simplfied to this statement:\nboosterOn == true
+:ANSWER5:T:boosterOn
+:ANSWER5:F:boosterOn == false
+:ANSWER5:F:boosterOn!
+:ANSWER5:F:!boosterOn
+:ANSWERORDER5:randomized
+:EXPLANATION5:A test condition must always evaluates to true or false, and thus a boolean data type can provide the needed value.
+
+:CAT2:LOGICAL OPERATORS
+
+:QUEST6:100:The symbols &&, || and ! are examples of this.
+:ANSWER6:T:Logical operators
+:ANSWER6:F:Relational operators
+:ANSWER6:F:Equality operators
+:ANSWER6:F:Test conditions
+:ANSWERORDER6:randomized
+:EXPLANATION6:The symbols &&, || and ! are examples of logical operators.
+
+:QUEST7:200:These are the two possible outcomes of any logical operation.
+:ANSWER7:T:true or false
+:ANSWER7:F:1 or 2
+:ANSWER7:F:yes or no
+:ANSWER7:F:up or down
+:ANSWERORDER7:randomized
+:EXPLANATION7:All logical operations evalaute to true or false.
+
+:QUEST8:300:This value is the result of evaluating the following expression: (!true)
+:ANSWER8:T:false
+:ANSWER8:F:true
+:ANSWER8:F:-true
+:ANSWER8:F:undefined
+:ANSWERORDER8:randomized
+:EXPLANATION8:The not symbol "!" reverses a boolean value.
+
+:QUEST9:400:Of these logical operations, this one produces the largest result.
+:ANSWER9:T:||
+:ANSWER9:F:&&
+:ANSWER9:F:!
+:ANSWER9:F:^
+:ANSWERORDER9:randomized
+:EXPLANATION9:If you restate true as 1 and false as 0, you see that an OR operation is the maximum of the operands.
+
+:QUEST10:500:This value is the result of evaluating the following expression.: (x < 8 || x > 6)
+:ANSWER10:T:true
+:ANSWER10:F:false
+:ANSWER10:F:it depends on x
+:ANSWER10:F:7
+:ANSWERORDER10:randomized
+:EXPLANATION10:The value of x is always either greater than 6 or less than 8.
+
+:CAT3:CONSTANTS
+
+:QUEST11:100:The keyword Java uses to make a variable constant is this.
+:ANSWER11:T:final
+:ANSWER11:F:const
+:ANSWER11:F:constant
+:ANSWER11:F:define
+:ANSWERORDER11:randomized
+:EXPLANATION11:The keyword Java uses to make a variable constant is "final".
+
+:QUEST12:200:This is the Java coding style to show variables are constant.
+:ANSWER12:T:all uppercase
+:ANSWER12:F:captialized
+:ANSWER12:F:all lowercase
+:ANSWER12:F:inverted case
+:ANSWERORDER12:randomized
+:EXPLANATION12:The Java coding style to show variables are constant is all uppercase with underbar separators.
+
+:QUEST13:300:This is the keyword used with constants so only one copy is stored in memory.
+:ANSWER13:T:static
+:ANSWER13:F:public
+:ANSWER13:F:final
+:ANSWER13:F:int
+:ANSWERORDER13:randomized
+:EXPLANATION13:The keyword "static" is used with constants so only one copy is stored in memory.
+
+:QUEST14:400:Making it easy to change the value of numbers used repeatedly in a program is a reason for using this.
+:ANSWER14:T:A constant
+:ANSWER14:F:A variable
+:ANSWER14:F:A literal
+:ANSWER14:F:A comment
+:ANSWERORDER14:randomized
+:EXPLANATION14:Using a constant makes it easy to change the value of literal numbers used repeatedly in a program
+
+:QUEST15:500:This is the keyword that could be added to constants for member variables but not for local variables.
+:ANSWER15:T:public
+:ANSWER15:F:extends
+:ANSWER15:F:member
+:ANSWER15:F:inline
+:ANSWERORDER15:randomized
+:EXPLANATION15:Adding public (or private) to constants is a good programming practice that affects their accessibility.
+
+:CAT4:LOOPS
+
+:QUEST16:100:The while and for are two types of this statement.
+:ANSWER16:T:repetition
+:ANSWER16:F:conditional
+:ANSWER16:F:logical
+:ANSWER16:F:optional
+:ANSWERORDER16:randomized
+:EXPLANATION16:The while and for are repetition statements, also known as loops.
+
+:QUEST17:200:An integer variable that controls the number of times a loop executes is known by this name.
+:ANSWER17:T:counter
+:ANSWER17:F:controller
+:ANSWER17:F:for
+:ANSWER17:F:do
+:ANSWERORDER17:randomized
+:EXPLANATION17:Counting loops make use of a counter variable to control the number of repetitions.
+
+:QUEST18:300:The three parts of a for-statement include these.
+:ANSWER18:T:initialization, test condition, update
+:ANSWER18:F:signature, test condition, update
+:ANSWER18:F:initialization, repetition, update
+:ANSWER18:F:initialization, test condition, header
+:ANSWERORDER18:randomized
+:EXPLANATION18:The three parts of a for-statement include initialization, test condition and update.
+
+:QUEST19:400:When a loop test condition is always true, the loop is known as this type.
+:ANSWER19:T:infinite
+:ANSWER19:F:indefinite
+:ANSWER19:F:counter
+:ANSWER19:F:incremental
+:ANSWERORDER19:randomized
+:EXPLANATION19:The test condition of an infinite loop always evaluates to true.
+
+:QUEST20:500:The enhanced for loop is often called this.
+:ANSWER20:T:for-each loop
+:ANSWER20:F:for-ever loop
+:ANSWER20:F:enduring loop
+:ANSWER20:F:indefinite loop
+:ANSWERORDER20:randomized
+:EXPLANATION20:The enhanced for loop is often called the "for-each" loop because other programming languages use the word "foreach" instead of "for".
+
+:CAT5:COLORS
+#These are the primary colors for most computer displays.
+
+:QUEST21:100:The color red is coded as this in Java.
+:ANSWER21:T:Color color = new Color(255, 0, 0);
+:ANSWER21:F:Color color = new Color(0, 255, 0);
+:ANSWER21:F:Color color = new Color(0, 0, 255);
+:ANSWER21:F:Color color = new Color(255, 255, 255);
+:ANSWERORDER21:randomized
+:EXPLANATION21:The color red is coded as:\n\nColor color = new Color(255, 0, 0);
+
+:QUEST22:200:The color green is coded as this in Java.
+:ANSWER22:F:Color color = new Color(255, 0, 0);
+:ANSWER22:T:Color color = new Color(0, 255, 0);
+:ANSWER22:F:Color color = new Color(0, 0, 255);
+:ANSWER22:F:Color color = new Color(255, 255, 255);
+:ANSWERORDER22:randomized
+:EXPLANATION22:The color green is coded as:\n\nColor color = new Color(0, 255, 0);
+
+:QUEST23:300:The color blue is coded as this in Java.
+:ANSWER23:F:Color color = new Color(255, 0, 0);
+:ANSWER23:F:Color color = new Color(0, 255, 0);
+:ANSWER23:T:Color color = new Color(0, 0, 255);
+:ANSWER23:F:Color color = new Color(255, 255, 255);
+:ANSWERORDER23:randomized
+:EXPLANATION23:The color green is coded as:\n\nColor color = new Color(0, 0, 255);
+
+:QUEST24:400:The color white is coded as this in Java.
+:ANSWER24:F:Color color = new Color(255, 0, 0);
+:ANSWER24:F:Color color = new Color(0, 255, 0);
+:ANSWER24:F:Color color = new Color(0, 0, 255);
+:ANSWER24:T:Color color = new Color(255, 255, 255);
+:ANSWERORDER24:randomized
+:EXPLANATION24:The color white is coded as:\n\nColor color = new Color(255, 255, 255);
+
+:QUEST25:500:The integer values of red, green and blue fall in this range.
+:ANSWER25:T:0 to 255
+:ANSWER25:F:0 to 1
+:ANSWER25:F:-1 to +1
+:ANSWER25:F:0.0 to 255.99
+:ANSWERORDER25:randomized
+:EXPLANATION25:The integer values of red, green and blue fall in the range of 0 to 255.
+
+:CAT6:THIS AND THIS()
+
+:QUEST26:100:This is a keyword to use when an object refers to itself.
+:ANSWER26:T:this
+:ANSWER26:F:self
+:ANSWER26:F:that
+:ANSWER26:F:super
+:ANSWERORDER26:randomized
+:EXPLANATION26:This keyword "this" is used when an object refers to itself, as in "this current object".
+
+:QUEST27:200:A logical error where a parameter and member variable have the same name is known as this.
+:ANSWER27:T:shadowing
+:ANSWER27:F:matching
+:ANSWER27:F:confusing
+:ANSWER27:F:indeterminate
+:ANSWERORDER27:randomized
+:EXPLANATION27:A logical error where a parameter and member variable have the same name is known as "shadowing".
+
+:QUEST28:300:Shadowing problems can be corrected using this keyword.
+:ANSWER28:T:this
+:ANSWER28:F:self
+:ANSWER28:F:super
+:ANSWER28:F:that
+:ANSWERORDER28:randomized
+:EXPLANATION28:Shadowing problems can be corrected using the keyword "this".
+
+:QUEST29:400:A call made to chain two constructors together, often preventing repeated initialization code.
+:ANSWER29:T:this()
+:ANSWER29:F:this
+:ANSWER29:F:chain()
+:ANSWER29:F:super
+:ANSWERORDER29:randomized
+:EXPLANATION29:A call to this() will call another constructor in the same class, often preventing repeated initialization code.
+
+:QUEST30:500:When used, it must be the first statement in a constructor.
+:ANSWER30:T:this()
+:ANSWER30:F:this
+:ANSWER30:F:init()
+:ANSWER30:F:construct()
+:ANSWERORDER30:randomized
+:EXPLANATION30:If this() is used, it must be the first statement of a constructor.
