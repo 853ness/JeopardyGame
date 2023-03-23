@@ -6,6 +6,7 @@ dependency1.type=UsesDependency
 dependency10.from=GameManager
 dependency10.to=File
 dependency10.type=UsesDependency
+
 dependency11.from=MyWorld
 dependency11.to=Rocket
 dependency11.type=UsesDependency
@@ -31,11 +32,13 @@ dependency18.from=Response
 dependency18.to=GameManager
 dependency18.type=UsesDependency
 dependency19.from=Answer
+
 dependency19.to=GameManager
 dependency19.type=UsesDependency
 dependency2.from=GameManager
 dependency2.to=Button
 dependency2.type=UsesDependency
+
 dependency20.from=Answer
 dependency20.to=Question
 dependency20.type=UsesDependency
@@ -66,6 +69,7 @@ dependency28.type=UsesDependency
 dependency29.from=SettingsScreen
 dependency29.to=Button
 dependency29.type=UsesDependency
+
 dependency3.from=GameManager
 dependency3.to=Question
 dependency3.type=UsesDependency
@@ -87,6 +91,7 @@ dependency8.type=UsesDependency
 dependency9.from=GameManager
 dependency9.to=OverScreen
 dependency9.type=UsesDependency
+
 editor.fx.0.height=728
 editor.fx.0.width=800
 editor.fx.0.x=319
@@ -96,17 +101,19 @@ package.numDependencies=29
 package.numTargets=14
 project.charset=UTF-8
 publish.hasSource=false
+
 publish.locked=true
-publish.longDesc=
-publish.shortDesc=
-publish.tags=
-publish.title=
+publish.longDesc=Test\ your\ Greenfoot\ and\ Java\ knowledge\ with\ this\ Jeopardy-like\ game\!\n\nStart\ with\ the\ basics.txt\ file\ and\ then\ move\ on\ to\ basics2.txt.\ All\ questions\ are\ from\ the\ first\ 4\ chapters\ of\ the\ Greenfoot\ book.\n\nThe\ Game\ Settings\ screen\ allows\ you\ to\ adjust\ how\ the\ game\ operates\:\n\no\ Use\ Timer\:\ if\ set\ to\ "On",\ you\ have\ 15\ seconds\ to\ select\ a\ "question"\n\no\ Display\ multiple\ choices\:\ if\ set\ to\ "On",\ an\ answer\ has\ multiple\ question\n\ \ choices\ to\ chose\ from.\ If\ set\ to\ "Off",\ you\ decide\ if\ your\ answer\ was\n\ \ correct.\n\no\ Question\ file\:\ choose\ a\ set\ of\ questions\ for\ the\ game.\ You\ have\ two\ files\n\ \ you\ can\ choose\ from\ at\ this\ time\:\ "basics.txt"\ and\ "basics2.txt".\ The\ first\n\ \ file\ is\ the\ easier\ of\ the\ two.\ The\ second\ file\ includes\ a\ "Final\ Jeopardy"\n\ \ style\ question.\n\nEach\ question\ you\ get\ correct\ is\ worth\ a\ set\ amount\ of\ points.\ In\ the\ final\nround\ you\ can\ wager\ on\ your\ ability\ to\ get\ the\ correct\ question.\n\nAlso,\ take\ a\ look\ at\ the\ GUIComponents\:\ Label,\ Button\ and\ TextField.\ These\ are\nJava\ Swing-like\ components\ implemented\ in\ Greenfoot.
+publish.shortDesc=Test\ your\ Greenfoot\ and\ Java\ knowledge\ with\ this\ Jeopardy-like\ game.
+publish.tags=game\ cabrillo\ test\ with-source
+publish.title=Greenfoot\ Jeopardy
 publish.url=
 readme.height=60
 readme.name=@README
 readme.width=48
 readme.x=10
 readme.y=10
+
 simulation.speed=50
 target1.height=70
 target1.name=BetScreen
@@ -211,3 +218,4 @@ width=1440
 world.lastInstantiated=GameManager
 xPosition=0
 yPosition=25
+

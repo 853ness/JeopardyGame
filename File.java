@@ -1,3 +1,4 @@
+
 /**
  * Questions as String[] instead of files since cannot read files online.
  */
@@ -270,6 +271,3 @@ public class File {
             "",
             ""
         };
-
-        }
-
