@@ -133,9 +133,7 @@ public class SettingsScreen extends Actor {
         img.setFont(GameManager.SMALL_FONT);
         img.drawString("Use Timer", LEFT, 61);
         img.drawString("Display multiple choices", LEFT, 100);
-        img.drawString("Basic", LEFT, 139);
-        img.drawString("Basic2", 164, 139);
-        img.drawString("L33t", 275, 139);
+        img.drawString("Math Trivia", LEFT, 139);
         setImage(img);
         // Place button relative to world
         timerButton = new Button("On", GameManager.SMALL_FONT, FOREGROUND);
@@ -145,10 +143,11 @@ public class SettingsScreen extends Actor {
         basicsButton = new Button("On", GameManager.SMALL_FONT, FOREGROUND);
         world.addObject(basicsButton, getX() - X_OFFSET, 296);
         basics2Button = new Button("Off", GameManager.SMALL_FONT, FOREGROUND);
-        world.addObject(basics2Button, 274, 296);
+        //world.addObject(basics2Button, 274, 296);
         l33tButton = new Button("Off", GameManager.SMALL_FONT, FOREGROUND);
-        world.addObject(l33tButton, 384, 296);
+        //world.addObject(l33tButton, 384, 296);
         continueButton = new Button("Continue", GameManager.SMALL_FONT, FOREGROUND);
         world.addObject(continueButton, getX(), getY() + 70);
     }
 }
+

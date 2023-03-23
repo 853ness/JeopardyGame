@@ -481,11 +481,11 @@ public class GameManager extends World {
         categories = new String[MAX_CATS];
         questions = new Question[MAX_QUESTS];
         ArrayList<String> lines = new ArrayList<String>();
-        String[] file = File.BASICS;
-        if (level == 2) {
-            file = File.BASICS2;
-        } else if (level == 3) {
-            file = File.L33T;
+        String[] file = File.MATH_TRIVIA;
+        if (level == 1 ) {
+            file = File.MATH_TRIVIA;
+        } else if (level == 0) {
+            file = null;
         }
         for (String line: file) {
             if (!line.equals("") && !line.startsWith("#")) {
