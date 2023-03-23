@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=OverScreen
+comment0.text=\n\ Displays\ the\ final\ game\ information\ and\ gives\ the\ player\ a\ chance\ to\ play\n\ another\ round.\n\n\ @author\ Ed\ Parrish\n\ @version\ 1.0\ \ 1/13/2011\n
+comment1.params=finalScore\ playedFinalRound
+comment1.target=OverScreen(int,\ boolean)
+comment1.text=\n\ OverScreen\ constructor.\n\n\ @param\ finalScore\ the\ final\ score\ for\ the\ game.\n\ @param\ playedFinalRound\ Set\ <code>true</code>\ if\ the\ final\ round\ was\n\ \ \ \ \ \ \ \ played;\ otherwise\ set\ to\ <code>false</code>.\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\n\ Respond\ to\ a\ actions\ like\ a\ button\ being\ pressed.\n\n\ @param\ c\ The\ component\ object\ that\ caused\ the\ action.\n
+comment3.params=
+comment3.target=void\ clear()
+comment3.text=\n\ Clears\ the\ display\ area\ and\ removes\ this\ object\ from\ the\ world.\n
+comment4.params=w
+comment4.target=void\ addedToWorld(greenfoot.World)
+comment4.text=\n\ Save\ the\ world\ and\ draw.\n\n\ @param\ w\ the\ world.\n
+comment5.params=
+comment5.target=void\ draw()
+comment5.text=\n\ Draw\ the\ screen.\n
+numComments=6

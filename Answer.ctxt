@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Answer
+comment0.text=\n\ An\ answer\ -\ several\ of\ these\ are\ displayed\ per\ question.\n\n\ @author\ Michael\ Berry\ (mjrb4)\n\ @author\ Ed\ Parrish\n\ @version\ 1.1\ \ 12/01/10\n
+comment1.params=answerText\ answerCorrect
+comment1.target=Answer(java.lang.String,\ boolean)
+comment1.text=\n\ Construct\ a\ new\ answer.\n\n\ @param\ answerText\ The\ text\ to\ display.\n\ @param\ answerCorrect\ Set\ <code>true</code>\ if\ the\ answer\ is\ correct,\n\ \ \ \ \ \ \ \ otherwise\ set\ <code>false</code>.\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\n\ Highlight\ when\ hovered\ over,\ and\ tell\ GameManager\ when\n\ we've\ been\ clicked\ on\ along\ with\ whether\ we're\ right\n\ or\ wrong.\n
+comment3.params=
+comment3.target=boolean\ isCorrect()
+comment3.text=\n\ Returns\ whether\ the\ answer\ is\ correct\ or\ not.\n\n\ @return\ <code>true</code>\ if\ correct;\ otherwise\ <code>false</code>.\n
+comment4.params=
+comment4.target=java.lang.String\ getText()
+comment4.text=\n\ Returns\ the\ answer\ text.\n\n\ @return\ The\ answer\ text.\n
+comment5.params=w
+comment5.target=void\ addedToWorld(greenfoot.World)
+comment5.text=\n\ When\ added\ to\ the\ world,\ draw.\n\n\ @param\ w\ the\ world.\n
+comment6.params=colour
+comment6.target=void\ draw(greenfoot.Color)
+comment6.text=\n\ Draw\ the\ answer\ to\ screen.\n\n\ @param\ colour\ The\ color\ in\ which\ to\ draw\ the\ answer.\n
+numComments=7
