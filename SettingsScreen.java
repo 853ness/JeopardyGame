@@ -150,3 +150,4 @@ public class SettingsScreen extends Actor {
         world.addObject(continueButton, getX(), getY() + 70);
     }
 }
+

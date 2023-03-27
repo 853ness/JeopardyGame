@@ -137,3 +137,4 @@ public class BetScreen extends Actor {
         return y;
     }
 }
+

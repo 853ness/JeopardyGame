@@ -178,3 +178,4 @@
 :ANSWER20:F:turn("random") * 10%
 :ANSWERORDER20:randomized
 :EXPLANATION20:The expression "Greenfoot.getRandomNumber(100)" returns a random number between 0 and 99. By testing if the number is < 10, there is a 10% chance of turning when using code like:\n\nif (Greenfoot.getRandomNumber(100) < 10) {\n    // turn statement...\n}
+

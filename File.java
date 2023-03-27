@@ -1,3 +1,4 @@
+
 /**
  * Questions as String[] instead of files since cannot read files online.
  */
@@ -16,6 +17,7 @@ public class File {
             "# Explanation format = :EXPLANATIONX:Explanation text, where X is the question",
             "#     number. Note that you can force new lines using \n.",
             "",
+
             ":CAT1:ABSOULTE\nVALUE",
             "",
             ":QUEST1:100:The absolute value of |0| is..",
@@ -59,48 +61,9 @@ public class File {
             ":EXPLANATION5:.",
             "",
             ":CAT2:PERFECT\nSQUARE",
-            "",
-            ":QUEST6:100:When you want to store whole numbers in a computer's main memory, use this data type.",
-            ":ANSWER6:T:int",
-            ":ANSWER6:F:String",
-            ":ANSWER6:F:double",
-            ":ANSWER6:F:char",
-            ":ANSWERORDER6:randomized",
-            ":EXPLANATION6:The data type of a variable defines the kind of data to store in a computer's main memory. The int data type stores integers, which are numbers without a decimal point.",
-            "",
-            ":QUEST7:200:When you want to store sequences of characters, like \"Hello World\", use this data type.",
-            ":ANSWER7:T:String",
-            ":ANSWER7:F:string",
-            ":ANSWER7:F:str",
-            ":ANSWER7:F:text",
-            ":ANSWERORDER7:randomized",
-            ":EXPLANATION7:Sequences of characters are known as strings. The string data type in Java is: String.",
-            "",
-            ":QUEST8:300:Of 3, 4 or 5, these are all this data type.",
-            ":ANSWER8:T:int",
-            ":ANSWER8:F:String",
-            ":ANSWER8:F:double",
-            ":ANSWER8:F:char",
-            ":ANSWERORDER8:randomized",
-            ":EXPLANATION8:The numbers 3, 4 and 5 are all integer numbers. An integer is zero or any positive or negative number without a decimal point. The data type for integers is int.",
-            "",
-            ":QUEST9:400:The literal \"9\" (with quote marks) is of this data type.",
-            ":ANSWER9:T:String",
-            ":ANSWER9:F:int",
-            ":ANSWER9:F:double",
-            ":ANSWER9:F:char",
-            ":ANSWERORDER9:randomized",
-            ":EXPLANATION9:Sequences of characters inside double quotes are strings. Even though the characters look like numbers the quote marks around the numbers make them a string. Even though the string contains numbers, the double quote marks make this a string. In Java, the data type for a string is: String.",
-            "",
-            ":QUEST10:500:You cannot store the digits of Pi, which is approximately 3.14159, with this numerical data type.",
-            ":ANSWER10:T:int",
-            ":ANSWER10:F:String",
-            ":ANSWER10:F:double",
-            ":ANSWER10:F:float",
-            ":ANSWERORDER10:randomized",
-            ":EXPLANATION10:Pi is approximately 3.14159, which is a number with a decimal point. The int data type cannot store numbers with decimal points. Strings can store the digits making up Pi, even though your program cannot perform arithmetic on the number. Both double and float can store Pi as a number though double has more accuracy that float. Thus the best question is: What is int?",
-            "",
+
             ":CAT3:COMPARE\nRATIONAL\nNUM",
+
             "",
             ":QUEST11:100:These 2 coordinates are used to locate a point in a 2-dimensional Cartesian, or coordinate, system.",
             ":ANSWER11:T:x & y",
@@ -142,7 +105,9 @@ public class File {
             ":ANSWERORDER15:randomized",
             ":EXPLANATION15:These statements should be worked from the inside out. Method getX() returns the x-coordinate of the object's current location. By adding 1, you move the location one pixel to the right. Method getY() returns the y-coordinate of the object's current location. With the (x, y) locations computed, calling the setLocation() method will move an Actor one pixel to the right.",
             "",
+
             ":CAT4:PROBLEMS\nWITH\nRATIONAL NUM",
+
             "",
             ":QUEST16:100:It's the sum total of the degrees in a circle.",
             ":ANSWER16:T:360",
@@ -184,7 +149,9 @@ public class File {
             ":ANSWERORDER20:randomized",
             ":EXPLANATION20:Zero degrees is to the east and the angle of the circle increases clockwise. Straight up, or north, is at 270 degrees. To turn clockwise use a positive number.",
             "",
+
             ":CAT5:POWER OF 10\nEXPONENTS",
+
             "",
             ":QUEST21:100:It is a numerical sequence where the next number cannot be predicted.",
             ":ANSWER21:T:a random number",
@@ -226,7 +193,9 @@ public class File {
             ":ANSWERORDER25:randomized",
             ":EXPLANATION25:The expression: Greenfoot.getRandomNumber(100) returns a random number between 0 and 99. By testing if the number is < 10, there is a 10% chance of turning when using code like:\n\nif (Greenfoot.getRandomNumber(100) < 10) {\n    // turn statement...\n}",
             "",
+
             ":CAT6:SCIENTIFIC\nNOTATION",
+
             "",
             ":QUEST26:100:This test condition says that: x is positive.",
             ":ANSWER26:T:x > 0",
@@ -271,5 +240,7 @@ public class File {
             ""
         };
 
+
         }
+
 

@@ -252,3 +252,4 @@
 :ANSWER30:F:Cannot determine class name from information given
 :ANSWERORDER30:randomized
 :EXPLANATION30:Notice the code:\n\n    public AlarmClock(Date time) {/* statements here */}\n\nYou can tell this is a constructor because it has no return type. The name of a constructor is always the same as the name of the class.
+
