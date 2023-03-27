@@ -252,3 +252,4 @@ public class Label extends Actor
         return lines;
     }
 }
+

@@ -47,3 +47,4 @@
 :CAT8:BOGUS CATEGORY
 
 Some bogus text that does not match anything and that should be ignored.
+

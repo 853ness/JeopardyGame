@@ -130,3 +130,4 @@ public class SplashScreen extends Actor {
         }
     }
 }
+

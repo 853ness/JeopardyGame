@@ -274,3 +274,4 @@
 :ANSWER31:F:assign "text", with the quote marks, to variable new
 :ANSWERORDER31:randomized
 :EXPLANATION31:This is a classic trick question - "new" is a reserved word in Java (used to construct objects). Thus "new" cannot be used for a variable name. Other reserved words that cannot be used as a variable name include: class, if, and public.
+

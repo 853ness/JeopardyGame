@@ -263,3 +263,4 @@
 :ANSWERORDER30:randomized
 :EXPLANATION30:Each operand (side of the operator) can be an arithmetic expression. The arithmetic is preformed before the comparison is made.
 
+
