@@ -338,7 +338,7 @@ public class GameManager extends World {
             Greenfoot.playSound("ansright.wav");
             response.setType(Response.Type.RIGHT);
         } else {
-            score -= currentQuestion.getValue();
+            //score -= currentQuestion.getValue();
             Greenfoot.playSound("answrong.wav");
             response.setType(Response.Type.WRONG);
         }
