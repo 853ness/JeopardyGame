@@ -62,7 +62,7 @@ public class Question extends Actor {
     }
 
     /**
-     * Adds an anser for this question.
+     * Adds an answer for this question.
      *
      * @param answerText The answer text.
      * @param correct Set <code>true</code> if the answer is correct;
