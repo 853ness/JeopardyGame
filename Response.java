@@ -132,11 +132,12 @@ public class Response extends Actor {
         if (type != Type.SELF) {
             text = "You ";
             if (type == Type.RIGHT) {
-                text += "won";
+                text += "won " + amount+ " points";
             } else {
-                text += "lost";
+                text += "lost zero points";
+                text += " ";
             }
-            text += " " + amount;
+            text += " ";
             y = printCentered(text, y, GameManager.MED_FONT);
         }
 
