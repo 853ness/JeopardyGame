@@ -127,7 +127,7 @@ public class File {
             ":ANSWER13:F: -29",
             ":ANSWER13:F: 0.29",
             ":ANSWERORDER13:randomized",
-            ":EXPLANATION13: 3(10) - 1 = 30 - 1, this equals 16",
+            ":EXPLANATION13: 3(10) - 1 = 30 - 1, this equals 29",
             "",
             ":QUEST14:400: is 0.5% greater than 0.45? ",
             ":ANSWER14:T: False",
