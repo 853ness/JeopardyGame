@@ -100,4 +100,3 @@ public class CountDownTimer extends Actor {
         }
     }
 }
-
