@@ -12,14 +12,14 @@ public class CountDownTimer extends Actor {
     private static final int WIDTH = 40;
     private static final int HEIGHT = 50;
     private static final int MS_SEC = 1000;
-    private static final int DISPLAY_TIME = 5;
+    private static final int DISPLAY_TIME = 15;
 
     private long delay;
     private Timer timer;
     private int count;
     private boolean running;
     private final Color textColor = Color.WHITE;
-    private final Font font = new Font("SansSerif", true, false, 48);
+    private final Font font = new Font("Avenir", true, false, 30);
 
     /**
      * Constructs a CountDownTimer.
@@ -39,7 +39,7 @@ public class CountDownTimer extends Actor {
     public void setDuration(int seconds) {
         delay = (seconds - DISPLAY_TIME) * MS_SEC;
     }
-
+    
     /**
      * Starts a new timer task.
      */
@@ -86,9 +86,9 @@ public class CountDownTimer extends Actor {
                 stop();
                 ((GameManager) getWorld()).timeout();
             } else {
-                img.setColor(Color.WHITE);
+                img.setColor(Color.BLUE);
                 img.fill();
-                img.setColor(Color.BLACK);
+                img.setColor(Color.WHITE);
                 img.setFont(font);
                 String text = "" + count;
                 int x = 8;
