@@ -59,6 +59,7 @@ public class GameManager extends World {
     private Label errorMsg;
     private OverScreen over;
     private boolean playedFinal;
+    private GreenfootSound sound = new GreenfootSound("countdowntrimmed.wav");
 
     /**
      * Constructor for objects of class GameManager.
@@ -316,7 +317,8 @@ public class GameManager extends World {
      */
     private void showQuestion(int questionNum) {
         if (questionNum < questions.length) {
-            Greenfoot.playSound("tone.wav");
+            Greenfoot.playSound("tonelower.wav");
+            sound.play();
             currentQuestion = questions[questionNum];
             if (currentQuestion != null) {
                 currentQuestion.setDisplayAnswers(provideChoices);
@@ -335,6 +337,7 @@ public class GameManager extends World {
         stopTimer();
         if (correct) {
             score += currentQuestion.getValue();
+            sound.stop();
             Greenfoot.playSound("ansright.wav");
             response.setType(Response.Type.RIGHT);
         } else {
@@ -385,7 +388,7 @@ public class GameManager extends World {
      * Responds to a timeout and advances.
      */
     public void timeout() {
-        Greenfoot.playSound("timeout.wav");
+        Greenfoot.playSound("times-up.wav");
         stopTimer();
         endQuestion();
     }
