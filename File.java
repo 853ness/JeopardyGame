@@ -119,7 +119,7 @@ public class File {
             ":ANSWER12:F: =",
             ":ANSWER12:F: None of These",
             ":ANSWERORDER12:randomized",
-            ":EXPLANATION12: 1/8 is greater than (>) -11",
+            ":EXPLANATION12: 1/8 is greater than (>) 1/10",
             "",
             ":QUEST13:300: What is the value of 3x-1 when x is equal to 10?",
             ":ANSWER13:T: None of These",
