@@ -165,7 +165,7 @@ public class GameManager extends World {
     public void startTimer() {
         if (provideTimer) {
             timer.start();
-            addObject(timer, 565, 35);
+            addObject(timer, 565, 420);
         }
     }
 
