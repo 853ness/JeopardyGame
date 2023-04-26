@@ -13,7 +13,7 @@ import java.util.ArrayList;
  */
 public class Question extends Actor {
     private static final GreenfootImage DEFAULT_IMG = new GreenfootImage(1, 1);
-    private static final int LINE_LENGTH = 60;
+    private static final int LINE_LENGTH = 50;
     private String[] text;
     private List<Answer> answers;
     private String explanation = "";
