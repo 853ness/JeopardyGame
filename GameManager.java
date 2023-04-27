@@ -336,12 +336,13 @@ public class GameManager extends World {
     public void answerResponse(boolean correct) {
         stopTimer();
         if (correct) {
-            score += currentQuestion.getValue();
+            //score += currentQuestion.getValue();
             sound.stop();
             Greenfoot.playSound("ansright.wav");
             response.setType(Response.Type.RIGHT);
         } else {
             //score -= currentQuestion.getValue();
+            sound.stop();
             Greenfoot.playSound("answrong.wav");
             response.setType(Response.Type.WRONG);
         }
